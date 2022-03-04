@@ -57,6 +57,12 @@ In the next section, we'll be creating those environments, adding a database, an
 
 It's time to use the directory you created, Visual Studio Code, and Git. Does this look like progress?
 
+Now it's time to add our first, of very few extensions.
+
+### The Docker Extension
+On the lft navigation bar of Visual Studio Code, click on the "Extensions" icon. Here you will be provided with a list of extensions which can be installed, and a search box at the top. Type the word "Docker". You will then see a list of extensions which contain docker in the description. You want the extension simply called "Docker". It has a blue check mark and has been developed by Microsoft. To install, you simply click on the cog icon to the right, and choose "Install". You will need to restart Visual Studio Code to make it fully effective.
+
+## Pull the Starter Files
 Open Visual Studio Code and from the "File" menu choose "Open Folder". Now select the directory, you created.
 
 Now, if there isn't already one open choose from the "Terminal" menu choose "New Terminal". The prompt should be pointing at the directory you created. If not, close down Visual Studio Code and start again. Or, if your feeling confident change the directory in the terminal to your directory. Either way, that's where we want to be.
@@ -66,7 +72,18 @@ Now we need to run the following command in the terminal:
 ```git clone https://github.com/guitarbeerchocolate/learn-to-code-environment.git```
 
 This will bring down a copy of the files needed to create our environments for coding.
+## Add Your Backend
+You should now create a directory within the "data" directory called "backend". This should result in the following structure:
+learn-to-code-environment
+ * data
+     * backend
+     * middleware-API
+     * frontend
+ * docker-compose.yml
+ * README.md
 
+The backend is the first place we will look at coding.
+## Kick Starting
 ### How to create the containers for the first time
 ```docker-compose up -d --force-recreate --build```
 ### How to stop the containers
