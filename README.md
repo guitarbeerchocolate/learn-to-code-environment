@@ -5,7 +5,7 @@ Here, you'll find that not all coding is the same. There are areas which you'll 
 
 This is not a deep dive into coding. It's very suface level. I will provide pointers to further learning.
 
-This is not a foolproof set of instructions. It's possible, that you'll have problems setting it up on your computer. People who are more suited to coding will enjoy overcoming such obstacles(./SOFTWARE-INSTALLATION.md).
+This is not a foolproof set of instructions. It's possible, that you'll have problems setting it up on your computer. People who are more suited to coding will enjoy overcoming such obstacles.
 
 It's likely that the code you write will not work first time and that you will get frustrated. This is normal. It cantwarealso be treated as part of the learning process in finding out if you enjoy coding.
 
