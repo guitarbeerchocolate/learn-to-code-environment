@@ -33,13 +33,9 @@ let appendToTheDataHolder = (data, apiValue) => {
             });
             break;
         default:
-            dataHolder.innerHTML = apiValue;
+            dataHolder.innerHTML = 'No data has been requested';
             break;
     }
-    /* if(urlStr == 'users') {
-        
-    } elseif */
-
 }
 
 function getUrlVars() {

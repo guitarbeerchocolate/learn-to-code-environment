@@ -82,6 +82,11 @@ learn-to-code-environment
  * docker-compose.yml
  * README.md
 
+docker-compose down --volumes
+docker system prune -a -f --volumes
+docker network prune
+docker-compose up -d --force-recreate --build
+
 The backend is the first place we will look at coding.
 ## Kick Starting
 ### How to create the containers for the first time
@@ -89,10 +94,15 @@ The backend is the first place we will look at coding.
 ### How to stop the containers
 ```docker-compose stop```
 ### How to start the containers subsequently
-```docker-compose start```
+```docker-compose start``` 
 
 ### How to add data to the database
-First, right-click on the mysql Docker container and attach a shell. In other words log into the mysql Docker container.
+It's time to add the MySQL extension by Jun Han. Let's see if you remember how to add an extension.
+
+It's also time to start using the Docker extension. It should have an icon on the left-hand navigation of Visual Studio Code.
+When you click on it, you should see different section, one of which should be titled, "Containers".
+
+First, right-click on the mysql Docker container and choose the "Attach Shell" option. In other words log into the mysql Docker container.
 
 Now, log into the mysql environment using:
 
@@ -147,7 +157,36 @@ Now exit from the mysql environment.
 Now exit from the Docker container shell.
     
 ```exit```
+## Testing it all works
+### Backend
+Now we need to apply our connection to the MySQL Extension.
+Click on the "Explorer" icon on the left-hand navigation of Visual Studio Code.
 
+Now look at the bottom-left of Visual Studio Code. You should see a vertical tab for "MySQL". Open this up.
+
+On the right hand side of this tab is a "+" symbol. When you click this a series of text entry boxes will appear at the top of Visual Studio Code. Below are the entries you need to enter.
+
+ * host: 0.0.0.0
+ * user: root
+ * password: password
+ * port: 3306
+ * [Optional] SSL certificate path: Just press enter.
+
+If everything has worked, you should be able to click on the connection for "0.0.0.0" and see a set of databases, including the acme one we created.
+### Middleware/API
+Open up your web browser and apply the following URLs:
+ * http://localhost:8080/
+ * http://localhost:8080/?api=users
+ * http://localhost:8080/?api=posts
+ * http://localhost:8080/?api=comments
+### The Frontend
+Open up your web browser and apply the following URLs:
+http://localhost:8000/
+http://localhost:8000/?api=users
+http://localhost:8000/?api=posts
+http://localhost:8000/?api=comments
+
+If everything works, then we're ready to code.
 ## Start again
 If it all goes wrong and you want to start again. First stop all containers:
 

@@ -19,17 +19,9 @@ switch($_GET['api']) {
         $comments = new comments();
         echo json_encode($comments->data);    
         break;
-    default: break;
+    default: 
+        echo json_encode(array('message'=>'Not data requested')); 
+        break;
 }
-
-
-/* $users = new users();
-echo json_encode($users->data); */
-
-/* $comments = new comments();
-echo json_encode($comments->data); */
-
-/* $posts = new posts();
-echo json_encode($posts->data); */
 
 ?>
