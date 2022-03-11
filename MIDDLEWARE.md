@@ -29,7 +29,7 @@ I find this tutorial to be very good https://www.w3schools.com/php/default.asp
 ### Coding Standards
 Try and use good coding standards. An example of this would lie in [PEAR](https://pear.php.net/manual/en/pear2cs.php). They help when working with others.
 ### Source Control
-As early as you feel comfortable, learn [Git](https://git-scm.com/). It will help you in so many ways, including going back to a previous stage when you've messed up, documenting how you got to where you are, separating the projects into smaller parts, and working with others.
+As early as you feel comfortable, learn [Git](https://git-scm.com/). It will help you in so many ways, including going back to a previous stage when you've messed up, documenting how you got to where you are, separating the projects into smaller parts, and working with others. You already used Git to obtain the installation of Learn to Code environment. 
 
 I find this tutorial to be very good https://www.w3schools.com/git/default.asp
 ### Libraries

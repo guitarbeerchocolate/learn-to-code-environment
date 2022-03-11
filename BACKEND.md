@@ -28,7 +28,7 @@ Now click the icon of the Visual Studio Code left hand navigation for Docker. At
 
 Now you need to learn about GNU/Linux.
 For this you will need to understand 3 things:
- 1. The commands (begin with the command ls).
+ 1. The commands (begin with the command ls). I find this a good place to start https://www.w3schools.com/whatis/whatis_cli.asp
  2. An editor (vi is character building here).
  3. Writing Shell Scripts.
 
