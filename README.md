@@ -13,6 +13,6 @@ If have divided the learning into 4 areas:
  1. [Installation of the Environment](./SOFTWARE-INSTALLATION.md).
  2. [Understanding the back-end](./FRONT-END.md).
  3. [Understanding the middleware and APIs](./MIDDLEWARE.md).
- 3. [Understanding the front end](./BACKEND.md).
+ 3. [Understanding the front end](./FRONT-END.md).
 
 Many developers would find issues with this approach. That's to be expected. There should be room for all sorts of opinion in this world. We shouldn't take this badly, but this is one of a number of perfectly credible approaches. You'll just have to decide for yourself if it's the one for you.
