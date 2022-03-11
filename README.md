@@ -11,7 +11,7 @@ It's likely that the code you write will not work first time and that you will g
 
 If have divided the learning into 4 areas:
  1. [Installation of the Environment](./SOFTWARE-INSTALLATION.md).
- 2. [Understanding the back-end](./FRONT-END.md).
+ 2. [Understanding the back-end](./BACKEND.md).
  3. [Understanding the middleware and APIs](./MIDDLEWARE.md).
  3. [Understanding the front end](./FRONT-END.md).
 
